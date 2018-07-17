@@ -159,8 +159,6 @@ for i in range(0, len(blankdivide)):
     delta = today-a1
     if delta.days<1:
         break
-    '''
-    '''
     csv_reader = csv.reader(open('D:\\CSVFiles\\' + filename + '\\Python\\' + servername +'.csv', 'r'))
     a = 0
     list1=[]
